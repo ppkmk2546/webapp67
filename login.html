@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <main>
+        <section class="login-section">
+            <h2>เข้าสู่ระบบ / ลงทะเบียน</h2>
+
+            <form action="login.php" method="post">
+                <div class="form-group">
+                    <label for="user-type">เลือกประเภท:</label>
+                    <select id="user-type" name="user-type">
+                        <option value="citizen">ประชาชน</option>
+                        <option value="employee">พนักงาน</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="citizen-id">เลขประจำตัวประชาชน:</label>
+                    <input type="text" id="citizen-id" name="citizen-id" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">รหัสผ่าน:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="submit">เข้าสู่ระบบ</button>
+
+                <p>หากท่านยังไม่มีรหัสผู้ใช้งาน</p>
+                <button type="button"><a href="Register.html">สมัครสมาชิก</a></button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

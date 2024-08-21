@@ -1,0 +1,99 @@
+/* ตกแต่งพื้นหลังและจัดวางส่วนหลัก */
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3; /* สีพื้นหลังอ่อน */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ตกแต่งส่วนหลักของหน้า */
+main {
+    width: 100%;
+    max-width: 500px; /* กำหนดขนาดสูงสุดให้กับ form */
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    padding: 20px;
+    border-radius: 10px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาเบาๆ */
+    margin: 20px 0;
+}
+
+/* ตกแต่งหัวข้อ */
+h2 {
+    text-align: center;
+    color: #333; /* สีเข้มสำหรับหัวข้อ */
+    margin-bottom: 20px;
+}
+
+/* จัดวางฟอร์ม */
+form {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+
+/* ตกแต่งกลุ่มฟอร์ม */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* ตกแต่งป้ายชื่อ */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* ตกแต่ง input และ select */
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* ตกแต่ง radio button */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* ตกแต่งปุ่ม */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* สีเข้มขึ้นเมื่อ hover */
+}
+
+/* ตกแต่งข้อความเพิ่มเติม */
+p {
+    text-align: center;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+/* ตกแต่งลิงก์ในปุ่ม */
+button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+button a:hover {
+    text-decoration: none;
+}

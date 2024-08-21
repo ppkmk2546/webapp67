@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+}
+.sum-logo{
+    display: flex;
+    align-items: center;
+    background-color: #3333;
+    
+}
+.img-icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    
+}
+.title-main-top{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #bebdbd33;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.link-head{
+    display: flex;
+    align-items: center;
+}
+
+.group-li{
+    list-style: none;
+    margin-right: 50px;
+    margin-left: 5px;
+    
+}
+
+.group-a-li{
+    text-decoration: none;
+    color:black
+}
+
+.login-btn-hero{
+    display: flex;
+    align-items: center;
+}
+main{
+    background:linear-gradient(to right, #c9c9c9, #929292);
+    padding: 50px;
+}
+.main-img{
+    width: 500px;
+    height: 500px;
+}
+.features{
+    float: right;
+}
+
+.box-1{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: -450px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    
+}
+.box-2{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: -250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+.box-3{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: -450px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+.box-4{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: -250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.img-box{
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    border-radius: 50%;
+}
+footer {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    background-color: #333; /* เปลี่ยนสีพื้นหลังให้เข้ากับตัวอย่าง */
+    color: white; /* เปลี่ยนสีข้อความให้เป็นสีขาว */
+    padding: 10px 0; /* เพิ่มระยะห่างด้านบนและด้านล่าง */
+}
+.footer-p{
+    margin: 10px 0;
+}
+.login-btn{
+    width: 100px;
+    height: 50px;
+}
+.btn-a{
+    text-decoration: none;
+    color: black;
+}
