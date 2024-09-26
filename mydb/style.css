@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+}
+table{
+    background-color: #f3f3f3;
+    border-collapse: collapse; /* รวมเส้นขอบให้ชิดกัน */
+}
+
+th,td{
+    border: 2px solid; 
+    
+}
+tr{
+    width: 220px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(194, 194, 194);
+    cursor: pointer;
+}
+

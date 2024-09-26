@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<>, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="stylemember.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="title">Register</h1>
+      <form action="login.html" method="post" target="_blank">
+        <div class="box-1">
+            <label for="Username" class="title-label">Username: </label>
+            <br>
+            <input type="text" id="username" name="username" size="25"  class="inputgroup" placeholder="โปรดกรอกชื่อผู้ใช้"/>
+        </div>
+        
+        <div class="box-2">
+          <label for="Password" class="title-label">Password: </label>
+          <br>
+          <input type="password" id="password" name="password" size="25" class="inputgroup" placeholder="โปรดกรอกรหัสผ่าน" >
+        </div>
+
+        <div class="box-3"> 
+          <label for="Birthday" class="title-label">Birthday: </label>
+          <br>
+          <input type="date" id="date" name="date" size="25" class="inputgroup" placeholder="วันเดือนปีเกิด">
+        </div>
+
+        <div class="box-4">
+          <label for="Files" class="title-label">Files: </label>
+          <br>
+          <input type="file" id="files" name="files" size="25" class="inputgroup">
+        </div>
+
+        <div class="submit">
+          <input type="submit" id="submit" name="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>

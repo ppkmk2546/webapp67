@@ -1,0 +1,84 @@
+body{    
+    background-image: url("https://media.licdn.com/dms/image/C4E12AQERsn3IveO--g/article-cover_image-shrink_720_1280/0/1524686014299?e=2147483647&v=beta&t=CLOg_m331FIAAaRdU6VOA5-EFBUZ1W9uCJCj4k-Kt5g");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.box-1{
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: 30px;
+    left: 580px;
+    bottom: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+}
+.title-label{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.groupinput{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 85%;
+    
+}
+.groupsubmit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left:  30px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.groupsubmit:hover {
+    background-color: #0056b3; /* สีพื้นหลังเมื่อชี้ที่ปุ่ม */
+}
+.groupcancel{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 10px;
+    background-color: #cecece;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.groupcancel:hover{
+    background-color: #b6b6b6;
+
+}
+.reg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 27%;
+    background-color: rgb(7, 172, 29);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.reg:hover{
+    background-color: rgb(4, 107, 18);
+}
+p{
+    text-align: center;
+}

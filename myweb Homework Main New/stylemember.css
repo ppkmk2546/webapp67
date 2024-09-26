@@ -1,0 +1,71 @@
+body{
+    /* background-color: burlywood; */
+    background-image: url("https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.container{
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: 30px;
+    left: 580px;
+    bottom: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+}
+
+.box-1{
+    padding: 15px;
+}
+
+.box-2{
+    padding: 15px;
+}
+
+.box-3{
+    padding: 15px;
+}
+
+.box-4{
+    padding: 15px;
+}
+.box-5{
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.title-label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.inputgroup{
+    padding: 15px;
+    width: 85%;
+    margin-top: 10px;
+}
+
+.submit {
+    text-align: center; /* จัดปุ่มให้อยู่ตรงกลาง */
+    margin-top: 10px; /* ระยะห่างจากด้านบน */
+}
+
+#submit {
+    padding: 10px 30px; /* ขนาดปุ่ม */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    border-radius: 5px; /* มุมปุ่มโค้งมน */
+    border: none; /* ไม่มีขอบ */
+    background-color: #007bff; /* สีพื้นหลัง  007bff*/
+    color: white; /* สีตัวอักษร */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ที่ปุ่ม */
+}
+
+#submit:hover {
+    background-color: #0056b3; /* สีพื้นหลังเมื่อชี้ที่ปุ่ม */
+}

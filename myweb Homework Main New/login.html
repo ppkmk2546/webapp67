@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="stylebylogin.css">
+</head>
+<body>
+        <div class="box-1">
+
+            <h1 class="title">Login</h1>
+            <br>
+            <form action="receivelogin.php" method="post" target="_blank" class="form-1">
+                <label for="" class="title-label">Username: </label>
+                <input type="text" id="user" name="user"  size="25" class="groupinput" placeholder="โปรดกรอกชื่อผู้ใช้"> 
+                <br>
+                <label for="" class="title-label">Password: </label>
+                <input type="password" id="password" name="pass" size="25" class="groupinput" placeholder="โปรดกรอกรหัสผ่าน">
+                <br>
+                <p>เมื่อกรอกข้อมูลครบแล้ว กรุณากดปุ่มเพื่อเข้าสู่ระบบ</p>
+                <br>
+            <input type="submit" id="send" name="send" value="เข้าระบบ" class="groupsubmit">
+            <input type="reset" id="cancel" name="cancel" value="ยกเลิก" class="groupcancel">
+        
+            </form>
+            <form action="member.html" method="post" target="_blank" class="form-2">
+                <h1 class="title">Register</h1>
+                <input type="submit" id="submit" name="register" value="สมัครสมาชิก" class="reg">
+            </form>
+        </div>
+</body>
+</html>

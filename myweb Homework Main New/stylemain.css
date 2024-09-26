@@ -1,0 +1,85 @@
+body{
+    color: whitesmoke;
+}
+.continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.continer > h1 {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.continer{
+    content: "";
+    background:url("https://images.unsplash.com/photo-1607349913338-fca6f7fc42d0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.submitbt{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;  
+    height: 50%;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+}
+p b {
+    
+    font-size: 1.2rem; /* ปรับขนาดฟอนต์ให้ใหญ่ขึ้น */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* เพิ่มเงาให้กับข้อความ */
+    background-color: rgba(0, 0, 0, 0.3); /* ใส่พื้นหลังโปร่งใสให้ข้อความ */
+    padding: 5px 10px; /* เพิ่มระยะห่างภายใน (padding) */
+    border-radius: 5px; /* เพิ่มมุมโค้งมนให้กับพื้นหลัง */
+}
+h1 {
+    color: whitesmoke;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    font-size: 4rem;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+h3 {
+    color: whitesmoke;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.submitbt {
+    padding: 10px 30px; /* ขนาดปุ่ม */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    border-radius: 5px; /* มุมปุ่มโค้งมน */
+    border: none; /* ไม่มีขอบ */
+    background-color: white; /* สีพื้นหลัง  007bff*/
+    color: black; /* สีตัวอักษร */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ที่ปุ่ม */
+}
+.submitbt:hover {
+    background-color: rgb(212, 212, 212); /* สีพื้นหลังเมื่อชี้ที่ปุ่ม */
+}
+
+
+
